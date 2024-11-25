@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #ff0000aa, #0000ffaa, #00ff00aa);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.box {
+    border: 2px solid #60178a;
+    border-radius: 0.5em;
+    padding: 10px;
+    width: 750px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
