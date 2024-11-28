@@ -21,15 +21,18 @@ nav {
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 
 .box {
   border: 2px solid #60178a;
   border-radius: 0.5em;
   padding: 10px;
-  width: 100%;
+  width: 90%;
   text-align: left;
-  margin: 10px 0;
+  margin: 10px auto;
 }
 
 h1,
@@ -46,6 +49,10 @@ h2 {
 h3 {
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+p {
+  word-wrap: break-word;
 }
 
 /* Responsive Styles */
